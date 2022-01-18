@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: arial, sans-serif;
+}
+
+.container {
+}
+
+.top {
+  color: #fff;
+  background: rgb(177, 75, 75);
+  border-radius: 0 0 0 10rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  max-width: 1500px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+
+.header-l {
+  display: flex;
+  align-items: center;
+}
+
+.header-l h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-right: 3rem;
+}
+
+.header .header-l ul {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.header-l ul li {
+  list-style: none;
+  padding: 0 2rem;
+}
+
+.header-l ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-r a {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin: 0 2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-r button {
+  font-size: 2rem;
+}
+
+.header-r button {
+  text-decoration: none;
+  color: pink;
+  padding: 1rem 2rem;
+  background: #fff;
+  border: none;
+  border-radius: 2rem;
+}
+
+.header-bottom {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.header-bottom h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.header-bottom p {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 4rem;
+}
+
+.header-bottom .btn1 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: -0.1rem;
+  text-decoration: none;
+  color: pink;
+  padding: 1rem 2rem;
+  background: #fff;
+  border: none;
+  border-radius: 2rem;
+  margin: 0 2rem 0 0;
+}
+
+.header-bottom .btn2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding: 1rem 2rem;
+  color: #fff;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 2rem;
+}
+
+.designed {
+  padding: 5% 0;
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.designed-up h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.desgined-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.desgined-l {
+  flex-basis: calc(50% - 4rem);
+}
+
+.desgined-l .first {
+  margin-bottom: 4rem;
+}
+
+.desgined-l .first h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.desgined-l .first p {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.desgined-l .secound h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.desgined-l .secound p {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.desgined-r {
+  flex-basis: calc(50% - 4rem);
+}
+
+.designed2 {
+  padding: 5% 0;
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.designed-up2 h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.desgined-bottom2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.desgined-l2 {
+  flex-basis: calc(50% - 4rem);
+}
+
+.desgined-l2 .first2 {
+  margin-bottom: 4rem;
+}
+
+.desgined-l2 .first2 h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.desgined-l2 .first2 p {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.desgined-l2 .secound2 h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.desgined-l2 .secound2 p {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.desgined-r2 {
+  flex-basis: calc(50% - 4rem);
+}
+
+.state {
+  /* padding: 3% 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: skyblue;
+  border-radius: 0 10rem 0 10rem;
+}
+
+.state-l {
+}
+
+.state-r {
+  flex-basis: calc(50% - 4rem);
+}
+
+.state-r h1 {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.state-r p {
+  font-size: 2rem;
+  width: 60%;
+  line-height: 3rem;
+}
+
+.blogr {
+  padding: 3% 0;
+  background: #000;
+  color: #fff;
+  border-radius: 0 10rem 0 0;
+  display: flex;
+}
+
+.blogr-l {
+  margin-left: 10%;
+}
+
+.blogr-l h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  padding: 0 9rem;
+}
+
+.blogr-r {
+  display: flex;
+  margin-left: 5%;
+}
+
+.single-blog {
+  padding: 0 10rem;
+}
+
+.blogr-up h5 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.blogr-down ul {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  list-style: none;
+}
